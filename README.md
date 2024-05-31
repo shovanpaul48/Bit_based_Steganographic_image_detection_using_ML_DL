@@ -1,9 +1,3 @@
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
-
 ## Bit based Steganographic image detection using ML
 
 In this project we hide some data in the images, and tried to detcet whether the given image contains some hidden data or not. In this project we use LSB technique to modify the bit and hide data inside the image's pixel bit. We use BossBase dataset for our cover images (this iamges are not doped or steganographic) and mnist dataset  payload iamges (iamegs which are used ad hidden data). 
