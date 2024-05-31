@@ -1,3 +1,9 @@
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
+
 ## Bit based Steganographic image detection using ML
 
 In this project we hide some data in the images, and tried to detcet whether the given image contains some hidden data or not. In this project we use LSB technique to modify the bit and hide data inside the image's pixel bit. We use BossBase dataset for our cover images (this iamges are not doped or steganographic) and mnist dataset  payload iamges (iamegs which are used ad hidden data). 
@@ -25,9 +31,13 @@ In this project we hide some data in the images, and tried to detcet whether the
     4.Set LSB 1 of Cover images store in a folder "Temp"
     and Set LSB 1 of test cover images store in a folder "Temp_Test" Test cover images 
 
-    5.Split folder "Temp" dataset into 80:20 ratio and store 80 percent iamges in "Stego" and 20 percent images in "Nonstego" folder under "Dataset" folder. Split folder "Temp_test" dataset into 80:20 ratio and store 80 percent iamges in "Test_Stego" and 20 percent images in "Test_Nonstego" folder under "Test_Dataset" folder 
+    5.Split folder "Temp" dataset into 80:20 ratio and store 80 percent iamges in "Stego" 
+    and 20 percent images in "Nonstego" folder under "Dataset" folder. Split folder "Temp_test" 
+    dataset into 80:20 ratio and store 80 percent iamges in "Test_Stego" and 20 percent 
+    images in "Test_Nonstego" folder under "Test_Dataset" folder 
 
-    6.Pick random digit images from "MNIST_NOISEREDUCTION" fodler and hide in iamges from "Stego" Folder and store the steganographic images in another folder "Dataset/Stego"
+    6.Pick random digit images from "MNIST_NOISEREDUCTION" fodler and hide in iamges from 
+    "Stego" Folder and store the steganographic images in another folder "Dataset/Stego"
 
     7.Define the CNN model
 
