@@ -1,4 +1,4 @@
-## Bit-based Steganographic Image Detection Using ML
+## Bit-based Steganographic Image Detection Using Deep Learning 
 
 In this project, we hide data in images and detect whether a given image contains hidden data or not. We use the LSB (Least Significant Bit) technique to modify the bits and embed data within the image's pixel bits. The BossBase dataset provides our cover images (images without hidden data), and the MNIST dataset supplies payload images (images used as hidden data).
 
